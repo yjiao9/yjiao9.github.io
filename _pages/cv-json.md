@@ -1,11 +1,11 @@
 ---
 layout: archive
 title: "CV"
-permalink: /cv-json/
-author_profile: ftrue
+permalink: /cv/
+author_profile: true
 redirect_from:
   - /resume-json
-  - /cv
+  - /cv-json
   - /resume
 ---
 
