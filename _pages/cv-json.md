@@ -5,11 +5,12 @@ permalink: /cv-json/
 author_profile: false
 redirect_from:
   - /resume-json
+  - /cv
+  - /resume
 ---
 
 {% include base_path %}
 
-{% include cv-template.html %}
 
 <style>
   .pdf-wrap { height: 85vh; }
