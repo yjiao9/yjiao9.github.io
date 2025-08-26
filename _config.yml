@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Yubo Jiao"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Yubo Jiao"
 description              : &description "personal description"
