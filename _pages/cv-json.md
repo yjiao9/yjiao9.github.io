@@ -24,7 +24,7 @@ redirect_from:
   <!-- 方式 2：object（作为降级/备用） -->
   <!--
   <object data="/files/cv.pdf#view=FitH" type="application/pdf">
-    <p>你的浏览器不支持内嵌 PDF。可<a href="/files/cv.pdf" target="_blank" rel="noopener">点击这里打开/下载</a>。</p>
+    <p>Your browser doesn’t support embedded PDFs. You can <a href="/files/cv.pdf" target="_blank" rel="noopener">open or download it here</a>.</p>
   </object>
   -->
 </div>
