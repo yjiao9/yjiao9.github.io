@@ -11,7 +11,19 @@ redirect_from:
 
 {% include cv-template.html %}
 
-<div class="cv-download-links">
-  <a href="{{ base_path }}/files/cv.pdf" class="btn btn--primary">Download CV as PDF</a>
-  <a href="{{ base_path }}" class="btn btn--inverse">View Markdown CV</a>
+<style>
+  .pdf-wrap { height: 85vh; }
+  .pdf-wrap iframe, .pdf-wrap object, .pdf-wrap embed { width: 100%; height: 100%; border: 0; }
+</style>
+
+<div class="pdf-wrap">
+  <!-- 方式 1：iframe（推荐） -->
+  <iframe src="/files/cv.pdf#view=FitH"></iframe>
+
+  <!-- 方式 2：object（作为降级/备用） -->
+  <!--
+  <object data="/files/cv.pdf#view=FitH" type="application/pdf">
+    <p>你的浏览器不支持内嵌 PDF。可<a href="/files/cv.pdf" target="_blank" rel="noopener">点击这里打开/下载</a>。</p>
+  </object>
+  -->
 </div>
